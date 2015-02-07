@@ -15,3 +15,4 @@ make
 make install
 tar -zcvf ffmpeg.tar.gz /app/vendor/ffmpeg/
 cp ffmpeg.tar.gz /app/static/
+echo pwd
