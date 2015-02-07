@@ -13,5 +13,6 @@ cd ffmpeg
 ./configure --enable-shared --disable-asm --prefix=/app/vendor/ffmpeg
 make
 make install
+cd ..
 tar -zcvf ffmpeg.tar.gz vendor/ffmpeg/
 cp ffmpeg.tar.gz static/
